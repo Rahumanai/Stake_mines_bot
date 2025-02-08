@@ -1,3 +1,5 @@
+from keep_alive import keep_alive
+keep_alive()
 import logging
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, CallbackContext
